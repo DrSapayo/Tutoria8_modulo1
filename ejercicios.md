@@ -25,7 +25,8 @@ saludar("Juan")
 Salida esperada:
 
 Hola Juan, bienvenido al sistema
-Esqueleto
+
+# Esqueleto
 
 public static void main(String[] args) {
 
@@ -52,7 +53,8 @@ dobleNumero(8)
 Salida esperada:
 
 16
-Esqueleto
+
+# Esqueleto
 public static void main(String[] args) {
 
     int resultado = dobleNumero(8);
@@ -81,7 +83,8 @@ Salida esperada:
 
 Producto: Zapatos
 Precio: 80000
-Esqueleto
+
+# Esqueleto
 public static void main(String[] args) {
 
     mostrarProducto("Zapatos", 80000);
@@ -105,7 +108,8 @@ Crea un método llamado calcularAreaRectangulo que reciba:
 
 Fórmula
 area = base * altura
-Esqueleto
+
+# Esqueleto
 public static void main(String[] args) {
 
     int area = calcularAreaRectangulo(5, 4);
@@ -125,7 +129,8 @@ El programa tiene un arreglo con notas de estudiantes.
 
 Debes mostrar todas las notas usando un for.
 
-Esqueleto
+
+# Esqueleto
 public static void main(String[] args) {
 
     int[] notas = {4, 3, 5, 2, 4};
@@ -152,7 +157,8 @@ Salida esperada:
 
 Crea un método que reciba un arreglo de números y devuelva la suma total.
 
-Esqueleto
+
+# Esqueleto
 public static void main(String[] args) {
 
     int[] numeros = {5, 10, 15, 20};
@@ -176,7 +182,7 @@ public static int sumarArreglo(int[] datos){
 
 Crea un método que reciba un arreglo y devuelva el número mayor.
 
-Esqueleto
+# Esqueleto
 public static void main(String[] args) {
 
     int[] numeros = {8, 3, 15, 2, 10};
