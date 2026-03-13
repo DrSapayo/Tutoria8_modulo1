@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class fors {
+public class forsYArrays {
 
     static Scanner sc = new Scanner(System.in);
 
