@@ -203,7 +203,7 @@ Crea un método que reciba un arreglo y devuelva el número mayor.
         return mayor;
 
     }
-## Reto final (opcional)
+## Reto final
 
 Crear un método que calcule el promedio de un arreglo de números.
 
