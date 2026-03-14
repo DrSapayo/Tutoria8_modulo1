@@ -28,18 +28,18 @@ Hola Juan, bienvenido al sistema
 
 # Esqueleto
 
-public static void main(String[] args) {
+    public static void main(String[] args) {
 
-    saludar("Juan");
-    saludar("Maria");
+        saludar("Juan");
+        saludar("Maria");
 
-}
+    }
 
-public static void saludar(String nombre){
+    public static void saludar(String nombre){
 
-    // COMPLETAR
+        // COMPLETAR
 
-}
+    }
 ## Ejercicio 2 – Método con retorno
 
 Crea un método llamado dobleNumero que reciba un número entero y devuelva el doble.
@@ -55,18 +55,18 @@ Salida esperada:
 16
 
 # Esqueleto
-public static void main(String[] args) {
+    public static void main(String[] args) {
 
-    int resultado = dobleNumero(8);
-    System.out.println("El doble es: " + resultado);
+        int resultado = dobleNumero(8);
+        System.out.println("El doble es: " + resultado);
 
-}
+    }
 
-public static int dobleNumero(int numero){
+    public static int dobleNumero(int numero){
 
-    // COMPLETAR
+        // COMPLETAR
 
-}
+    }
 ## Ejercicio 3 – Método con parámetros
 
 Crea un método llamado mostrarProducto que reciba:
@@ -85,17 +85,17 @@ Producto: Zapatos
 Precio: 80000
 
 # Esqueleto
-public static void main(String[] args) {
+    public static void main(String[] args) {
 
-    mostrarProducto("Zapatos", 80000);
+        mostrarProducto("Zapatos", 80000);
 
-}
+    }
 
-public static void mostrarProducto(String nombre, int precio){
+    public static void mostrarProducto(String nombre, int precio){
 
-    // COMPLETAR
+        // COMPLETAR
 
-}
+    }
 ## Ejercicio 4 – Método con parámetros y retorno
 
 Crea un método llamado calcularAreaRectangulo que reciba:
@@ -110,18 +110,18 @@ Fórmula
 area = base * altura
 
 # Esqueleto
-public static void main(String[] args) {
+    public static void main(String[] args) {
 
-    int area = calcularAreaRectangulo(5, 4);
-    System.out.println("Area: " + area);
+        int area = calcularAreaRectangulo(5, 4);
+        System.out.println("Area: " + area);
 
-}
+    }
 
-public static int calcularAreaRectangulo(int base, int altura){
+    public static int calcularAreaRectangulo(int base, int altura){
 
-    // COMPLETAR
+        // COMPLETAR
 
-}
+    }
 
 ## Ejercicio 5 – Usando arrays
 
@@ -131,19 +131,19 @@ Debes mostrar todas las notas usando un for.
 
 
 # Esqueleto
-public static void main(String[] args) {
+    public static void main(String[] args) {
 
-    int[] notas = {4, 3, 5, 2, 4};
+        int[] notas = {4, 3, 5, 2, 4};
 
-    mostrarNotas(notas);
+        mostrarNotas(notas);
 
-}
+    }
 
-public static void mostrarNotas(int[] datos){
+    public static void mostrarNotas(int[] datos){
 
-    // COMPLETAR
+        // COMPLETAR
 
-}
+    }
 
 Salida esperada:
 
@@ -159,49 +159,50 @@ Crea un método que reciba un arreglo de números y devuelva la suma total.
 
 
 # Esqueleto
-public static void main(String[] args) {
+    public static void main(String[] args) {
 
-    int[] numeros = {5, 10, 15, 20};
+        int[] numeros = {5, 10, 15, 20};
 
-    int total = sumarArreglo(numeros);
+        int total = sumarArreglo(numeros);
 
-    System.out.println("Suma total: " + total);
+        System.out.println("Suma total: " + total);
 
-}
+    }
 
-public static int sumarArreglo(int[] datos){
+    public static int sumarArreglo(int[] datos){
 
-    int suma = 0;
+        int suma = 0;
 
-    // COMPLETAR
+        // COMPLETAR
 
-    return suma;
+        return suma;
 
-}
+    }
+
 ## Ejercicio 7 – Encontrar el número mayor
 
 Crea un método que reciba un arreglo y devuelva el número mayor.
 
 # Esqueleto
-public static void main(String[] args) {
+    public static void main(String[] args) {
 
-    int[] numeros = {8, 3, 15, 2, 10};
+        int[] numeros = {8, 3, 15, 2, 10};
 
-    int mayor = encontrarMayor(numeros);
+        int mayor = encontrarMayor(numeros);
 
-    System.out.println("Mayor: " + mayor);
+        System.out.println("Mayor: " + mayor);
 
-}
+    }
 
-public static int encontrarMayor(int[] datos){
+    public static int encontrarMayor(int[] datos){
 
-    int mayor = datos[0];
+        int mayor = datos[0];
 
-    // COMPLETAR
+        // COMPLETAR
 
-    return mayor;
+        return mayor;
 
-}
+    }
 ## Reto final (opcional)
 
 Crear un método que calcule el promedio de un arreglo de números.
