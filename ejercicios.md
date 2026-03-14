@@ -208,6 +208,7 @@ Crea un método que reciba un arreglo y devuelva el número mayor.
 Crear un método que calcule el promedio de un arreglo de números.
 
 Fórmula
-promedio = suma / cantidad de elementos
-Firma del método
-public static double calcularPromedio(int[] datos)
+    promedio = suma / cantidad de elementos
+    Firma del método
+
+    public static double calcularPromedio(int[] datos)
