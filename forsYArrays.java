@@ -4,11 +4,16 @@ public class forsYArrays {
 
     static Scanner sc = new Scanner(System.in);
 
-    static int[] puntajes = new int[5];
+    
 
     public static void main(String[] args) {
 
-        registrarPuntajes();
+        System.out.print("Digite cuantos puntajes desea almacenar: ");
+        int espacios = sc.nextInt();
+
+        int puntajes[] = new int[espacios]; //array o arreglo
+
+        registrarPuntajes(puntajes);
 
         mostrarPuntajes(puntajes);
 
@@ -17,13 +22,21 @@ public class forsYArrays {
 
         int mayor = obtenerMayor(puntajes);
         System.out.println("Puntaje más alto: " + mayor);
+
+        double promedio = obtenerPromedio(puntajes);
+        System.out.print("El promedio de los puntajes fue: " + promedio);
     }
 
     //ALMACENAR PUNTAJES
 
-    public static void registrarPuntajes(){
+    public static void registrarPuntajes(int datos[]){
 
-        //CÓDIGO AQUÍ
+        for(int i = 0; i < datos.length ;i++){
+
+            System.out.print("\nIngrese la puntuacion "+(i+1)+" : ");
+            datos[i] = sc.nextInt();
+
+        }
 
     }
 
@@ -31,7 +44,11 @@ public class forsYArrays {
 
     public static void mostrarPuntajes(int[] datos){
 
-        //CÓDIGO AQUÍ
+        for(int i = 0; i < datos.length ;i++){
+
+            System.out.println("Puntuacion "+(i+1)+" : " + datos[i]);
+
+        }
 
     }
 
@@ -41,8 +58,11 @@ public class forsYArrays {
 
         int suma = 0;
 
-        //CÓDIGO AQUÍ
+        for(int i = 0; i < datos.length ;i++){
 
+            suma += datos[i];
+
+        }
         return suma;
     }
 
@@ -52,7 +72,13 @@ public class forsYArrays {
 
         int mayor = datos[0];
 
-        //CÓDIGO AQUÍ
+        for(int i = 1; i < datos.length ;i++){
+
+            if(mayor<datos[i]){
+                mayor = datos[i];
+                
+            }
+        }
 
         return mayor;
     }
@@ -60,9 +86,9 @@ public class forsYArrays {
     //CALCULAR EL PROMEDIO DE LOS PUNTAJES
 
     public static double obtenerPromedio(int[] datos){
-        double promedio = 0;
+        double promedio = 0.0;
 
-        //CÓDIGO AQUÍ
+        promedio = calcularTotal(datos) / ((double)datos.length);
         
         return promedio;
     }
